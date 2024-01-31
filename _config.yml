@@ -13,14 +13,15 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: MM
-email:
+title: Live with it
+email: protossid@yahoo.com
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
-twitter_username: username
-github_username: username
+# twitter_username: username
+github_username: miq28
+linkedin_username: miq28
 minimal_mistakes_skin: "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 search: true
 
@@ -30,9 +31,16 @@ theme: minimal-mistakes-jekyll
 # remote_theme: mmistakes/minimal-mistakes
 # Outputting
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
+paginate: 3 # amount of posts to show
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Asia/Jakarta
+repository: miq28/miq28.github.io
+
+highlighter: rouge
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
 
 include:
   - _pages
@@ -59,35 +67,28 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "First Lastname"
-  avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  name   : "Muhammad Iqbal"
+  # avatar : "/assets/images/bio-photo.jpg"
+  avatar : "https://media.licdn.com/dms/image/C5603AQEoSVdGyfZoEg/profile-displayphoto-shrink_400_400/0/1631538898876?e=1712188800&v=beta&t=r-6JDeiy0KuevCLAg4_dl4OYlVAteL47ZolYWqsRo54"
+  bio    : "Ex-mechanical engineer, fascinated with embedded-device programming, analytics, data visualization, dashboarding & observability.
+            I am a father, husband, lifelong learner & tech nerd. More on me in the ABOUT section."
+  location: "Bekasi, Indonesia"
   links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/miq28"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/miq28"
 
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
-
+      url: "https://github.com/miq28"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/miq28"
 defaults:
   # _posts
   - scope:
@@ -100,6 +101,8 @@ defaults:
       comments: true
       share: true
       related: true
+      show_date: true
+
   # _pages
   - scope:
       path: "_pages"
@@ -107,6 +110,12 @@ defaults:
     values:
       layout: single
       author_profile: true
+
+comments:
+  provider: "utterances"
+  utterances:
+    theme: "dark-blue" #"github-dark"
+    issue_term: "pathname"
 
 category_archive:
   type: liquid
