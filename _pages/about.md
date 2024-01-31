@@ -1,8 +1,13 @@
 ---
-permalink: /about/
 title: "About"
+permalink: /about/
 ---
 
-Tempor velit sint sunt ipsum tempor enim ad qui ullamco. Est dolore anim ad velit duis dolore minim sunt aliquip amet commodo labore. Ut eu pariatur aute ea aute excepteur laborum. Esse ea esse excepteur minim mollit qui cillum excepteur ex dolore magna. Labore deserunt fugiat incididunt incididunt sint ea. Consequat dolore aute laboris quis proident quis non et est consectetur ex eiusmod sit culpa.
+<img src="/assets/cleanroom_pic.jpg" alt="drawing" style="max-width: 75%; height: auto; text-align: center;"/>
 
-Cupidatat ea do et in excepteur in. Ad nostrud ut est esse eu duis ea sunt eiusmod. Aliquip tempor veniam sint elit fugiat. Velit incididunt laboris amet incididunt labore dolore irure velit excepteur commodo deserunt laborum. Consectetur eu fugiat veniam veniam Lorem labore magna eiusmod. Ea occaecat reprehenderit pariatur consectetur minim labore ut aliquip.
+## More about me ...
+
+My concentration at university was in Material Handling Equipment. This involved study in device physics, 
+engineering standards, mechatronics, statics of structures, etc..
+I have worked in variety of sectors (pharmaceutical, mining, engineering consultant) mainly for engineering works. My current job is in instrumentation industry, I responsible on on sales, business development and technical sales support.
+My hobby for years now has revolved around programming (Python, javascript, arduino), IoT, embedded-device (Arduino, ESP8266/ESP32), dashboarding/data visualization, IT-networking, etc... I am passionate about almost everything tech and find joy in solving great problems.
