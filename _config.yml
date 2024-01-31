@@ -68,8 +68,7 @@ plugins:
 
 author:
   name   : "Muhammad Iqbal"
-  # avatar : "/assets/images/bio-photo.jpg"
-  avatar : "https://media.licdn.com/dms/image/C5603AQEoSVdGyfZoEg/profile-displayphoto-shrink_400_400/0/1631538898876?e=1712188800&v=beta&t=r-6JDeiy0KuevCLAg4_dl4OYlVAteL47ZolYWqsRo54"
+  avatar : "/assets/images/miq28.jpeg"
   bio    : "Ex-mechanical engineer, fascinated with embedded-device programming, analytics, data visualization, dashboarding & observability.
             I am a father, husband, lifelong learner & tech nerd. More on me in the ABOUT section."
   location: "Bekasi, Indonesia"
