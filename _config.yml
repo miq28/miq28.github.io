@@ -114,7 +114,7 @@ defaults:
 comments:
   provider: "utterances"
   utterances:
-    theme: "github-light" #"github-dark"
+    theme: "preferred-color-scheme" #"github-dark"
     issue_term: "pathname"
 
 category_archive:
